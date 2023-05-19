@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-rel/</url>
+            <id>nexus</id>
+            <name>mavenrepo-release</name>
+            <url>http://13.211.222.36:9080/repository/mavenrepo-release/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-snap/</url>
+            <id>nexus</id>
+            <name>mavenrepo-Snapshot</name>
+            <url>http://13.211.222.36:9080/repository/mavenrepo-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
