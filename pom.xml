@@ -37,6 +37,10 @@
             <url>http://13.211.222.36:9080/repository/mavenrepo-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
+   <properties>
+      <sonar.host.url>http://54.66.243.145:9000/</sonar.host.url>
+      <sonar.loginsqu_2db4cd695539d54082e12e2ea3c1b79a4b9ac638></sonar.login>
+     </properties>
   <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>
