@@ -39,7 +39,7 @@
     </distributionManagement>
    <properties>
       <sonar.host.url>http://54.66.243.145:9000/</sonar.host.url>
-      <sonar.loginsqu_2db4cd695539d54082e12e2ea3c1b79a4b9ac638></sonar.login>
+      <sonar.loginsqu_8e997528cf11dc7ec66a1e10f10776f39b2a21d8></sonar.login>
      </properties>
   <dependencies>
   	<dependency>
