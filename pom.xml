@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jdevs</groupId>
   <artifactId>studentapp</artifactId>
-  <version>2.5-SNAPSHOT</version>
+  <version>2.5</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -29,12 +29,12 @@
         <repository>
             <id>nexus</id>
             <name>mavenrepo-release</name>
-            <url>http://13.211.222.36:9080/repository/mavenrepo-release/</url>
+            <url>http://54.252.152.187:9080/repository/mavenrepo-release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>mavenrepo-Snapshot</name>
-            <url>http://13.211.222.36:9080/repository/mavenrepo-snapshot/</url>
+            <url>http://54.252.152.187:9080/repository/mavenrepo-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
    <properties>
