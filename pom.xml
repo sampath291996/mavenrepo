@@ -29,16 +29,16 @@
         <repository>
             <id>nexus</id>
             <name>mavenrepo-release</name>
-            <url>http://54.252.152.187:9080/repository/mavenrepo-release/</url>
+            <url>http://13.239.119.62:9080/repository/mavenrepo-release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>mavenrepo-Snapshot</name>
-            <url>http://54.252.152.187:9080/repository/mavenrepo-snapshot/</url>
+            <url>http://13.239.119.62:9080/repository/mavenrepo-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
    <properties>
-      <sonar.host.url>http://3.27.72.40:9000/</sonar.host.url>
+      <sonar.host.url>http://3.27.138.86:9000/</sonar.host.url>
       <sonar.login>squ_3a78918e731d95a4a3a6df3df647639d7b39ac38</sonar.login>
      </properties>
   <dependencies>
